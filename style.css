@@ -1,3 +1,10 @@
-body {
-
+img {
+  width: 15%;
+  clip-path: ellipse(45% 50%)
 }
+
+body {
+  background-color: darkgray;
+}
+h2 {
+  color: navy;
