@@ -2,6 +2,7 @@ body {
   background-color: darkgray;
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 h2 {
@@ -33,6 +34,7 @@ img {
   position: sticky;
   top: 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  z-index: 1000; 
 }
 
 .nav-link {
@@ -63,8 +65,8 @@ img {
   display: block;
 }
 
-#home-radio:checked ~ nav label[for="home-radio"],
-#projects-radio:checked ~ nav label[for="projects-radio"] {
+#home-radio:checked ~ .navbar label[for="home-radio"],
+#projects-radio:checked ~ .navbar label[for="projects-radio"] {
   background-color: rgba(255, 255, 255, 0.15);
   text-decoration: underline;
 }
